@@ -80,3 +80,11 @@ To take advantage of all life cycle methods we can use
 This makes full copy of the React Component including access to Life Cycle methods.
 
 
+Static Rendering:
+This is far most the less effecting and not widly used copy.
+Static Rendering basically takes the react component and covert to plain HTML, this gives us the ability to Look for elements by id's and classnames.
+
+        expect(wrapper.find('.foo-bar')).to.have.length(3);
+
+
+
